@@ -1,8 +1,8 @@
-
+using System.Net;
 using System.ComponentModel.DataAnnotations;
 
 namespace Dummy3D.Models.Request {
-    public class Enrolled {
+    public class ReqEnrolled {
         [Required]
         public uint Amount { get; set;}
         [Required]
@@ -13,5 +13,7 @@ namespace Dummy3D.Models.Request {
         public Merchant Merchant { get; set;}
         [Url]
         public string ReturnUrl { get; set;}
+        [Required]
+        public IPAddress Ip { get; set;}
     }
 }
