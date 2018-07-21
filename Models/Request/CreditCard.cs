@@ -5,7 +5,7 @@ namespace Dummy3D.Models.Request {
     public class CreditCard {
         [Required]
         [CreditCard]
-        public uint Number { get; set;}
+        public CreditCard Number { get; set;}
         [Required]
         public uint ExpireMonth { get; set;}
         [Required]

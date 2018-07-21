@@ -10,7 +10,7 @@ namespace Dummy3D.Models.Request {
         
         [Required]
         [RegularExpression("[A-Z]{2}")]
-        public RegionInfo Country { get; set;}
+        public string Country { get; set;}
 
         [Required]
         [RegularExpression("[0-9]{6}")]

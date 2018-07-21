@@ -24,7 +24,7 @@ namespace Dummy3D.Controllers
 
             }
             Error err = new Error();
-            err.Errors = ModelState;
+            err.Errors =  new BadRequestObjectResult(ModelState).Value;
             err.Status = Status.Invalid;
             return BadRequest(err);
         }
