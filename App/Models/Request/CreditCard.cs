@@ -1,7 +1,7 @@
 using System.Net;
 using System.ComponentModel.DataAnnotations;
 
-namespace Dummy3D.Models.Request {
+namespace App.Models.Request {
     public class CreditCard {
         [Required]
         [CreditCard]

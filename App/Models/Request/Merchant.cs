@@ -1,7 +1,7 @@
 using System.Globalization;
 using System.ComponentModel.DataAnnotations;
 
-namespace Dummy3D.Models.Request {
+namespace App.Models.Request {
     public class Merchant {
         [Required]
         public string ID { get; set;}

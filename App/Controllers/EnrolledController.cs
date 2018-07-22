@@ -4,10 +4,10 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Dummy3D.Models.Request;
-using Dummy3D.Models.Response;
+using App.Models.Request;
+using App.Models.Response;
 
-namespace Dummy3D.Controllers
+namespace App.Controllers
 {   
     [Produces("application/json")]
     [Route("api/3d/enrolment")]

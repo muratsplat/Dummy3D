@@ -4,9 +4,9 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Dummy3D.Models;
+using App.Models;
 
-namespace Dummy3D.Controllers
+namespace App.Controllers
 {
     public class HomeController : Controller
     {

@@ -2,7 +2,7 @@ using System.Net;
 using System.ComponentModel.DataAnnotations;
 using Newtonsoft.Json;
 
-namespace Dummy3D.Models.Request {
+namespace App.Models.Request {
     public class ReqEnrolled {
         [Required]
         [JsonProperty]

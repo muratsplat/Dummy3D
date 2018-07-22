@@ -1,6 +1,6 @@
 
 
-namespace Dummy3D.Models.Response {
+namespace App.Models.Response {
     public enum Status
     {
         Ok,

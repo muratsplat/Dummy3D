@@ -1,4 +1,4 @@
-namespace Dummy3D.Models.Response {
+namespace App.Models.Response {
     public class ResEnrolled {
 
         public string AcsUrl { set; get;}
