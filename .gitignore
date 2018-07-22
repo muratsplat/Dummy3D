@@ -1,3 +1,5 @@
 .vscode
 bin
 obj
+App/out
+Test/out
