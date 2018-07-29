@@ -3,7 +3,7 @@
 This is dummy 3D Secure service for test cases. This service is useful for payment gateway. You can use it to complate 3D user journey like as Visa or Master ACS service without no any effors.
 
 ## Requiretments
-- Docker (optinal)
+- Docker (optional)
 - .NetCore SDK >= 3.2.300
 
 ## How to configure project to install all dependencies ?
